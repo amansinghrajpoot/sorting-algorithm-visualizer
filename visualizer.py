@@ -53,7 +53,7 @@ class visualize:
             self.reset_display(data)
             sort_algo = sorting_map.get(keys)
             sort_algo.algorithm(data, self)
-            pygame.time.wait(5)
+            pygame.time.wait(10)
 
         while True:
             pygame.display.update()

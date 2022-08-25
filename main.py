@@ -10,7 +10,10 @@ def main():
     vis = visualizer.visualize()
     bubble_sort = algorithms.BubbleSort()
     selection_sort = algorithms.SelectionSort()
-    sorting_map = {"Selection Sort": selection_sort, "Bubble Sort": bubble_sort}
+    merge_sort = algorithms.MergeSort()
+    quick_sort = algorithms.QuickSort();
+    sorting_map = {"Quick Sort": quick_sort, "Merge Sort": merge_sort,
+                   "Selection Sort": selection_sort, "Bubble Sort": bubble_sort}
     vis.run(sorting_map)
 
 
